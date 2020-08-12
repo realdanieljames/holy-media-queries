@@ -53,3 +53,53 @@
 }
 
 
+
+/* tablet */
+@media (min-width: 601px) and (max-width: 1000px){
+  #main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+  #articles {
+    height: 50vh;
+  } 
+
+  #ads {
+    height: 50vh;
+  }
+}
+
+
+/* desktop */
+@media (min-width: 1000px){
+  #middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #nav {
+    height: 60vw;
+    width: 20vw;
+  }
+  
+  #articles {
+    height: 60vw;
+    width: 70vw;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: row;
+    height: 60vw;
+    width: 80vw;
+  }
+  
+  #ads {
+    
+    height: 60vw;
+    width: 20vw;
+  }
+}
+
