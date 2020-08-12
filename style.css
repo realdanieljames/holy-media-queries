@@ -10,36 +10,46 @@
 
 #header {
   background-color: #f3ca40;
-  height: 15vh;
+  height: 20vh;
   width: 100vw;
 }
 
 #middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 60vh;
   width: 100vw;
 }
 
 #main {
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 
 #nav {
-  width: 15vw;
+  height: 15vh;
+  width: 100vw;
   background-color: #4b4e6d;
 }
 
 #articles {
-  width: 60vw;
+  width: 100vw;
+  height: 30vh;
   background-color: #6a8d92;
 }
 
 #ads {
-  width: 15vw;
+  height: 15vh;
+  width: 100vw;
   background-color: #f2a541;
 }
 
 #footer {
-  height: 15vh;
+  height: 20vh;
   width: 100vw;
   background-color: #f08a4b;
 }
+
+
